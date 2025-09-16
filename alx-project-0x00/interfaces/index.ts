@@ -10,3 +10,9 @@ export interface CardProps {
   pricePerNight: number;
   features: string[];
 }
+
+export interface ButtonProps {
+  size: 'small' | 'medium' | 'large';
+  shape: 'rounded' | 'square' | 'pill';
+}
+
