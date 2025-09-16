@@ -18,5 +18,5 @@ export interface CardProps {
 
 export interface ButtonProps {
   title: string;
-  styles?: string;
+  styles: string;
 }
