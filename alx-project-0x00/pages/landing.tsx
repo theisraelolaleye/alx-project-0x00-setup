@@ -3,6 +3,7 @@ import Card from '@/components/Card'
 import Button from '@/components/Button'
 import Pill from '@/components/Pill'
 
+const ButtonTypes = ["rounded-sm", "rounded-lg", "rounded-full"]
 
 const Landing: React.FC = () => {
   return (
